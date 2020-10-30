@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: myqxin-face
+  profiles:
+    active: dev

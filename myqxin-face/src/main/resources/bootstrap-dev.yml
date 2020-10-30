@@ -1,0 +1,18 @@
+server:
+  port: 8781
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 182.92.205.224:8848
+        namespace: 8f66febb-8a3d-45c1-bb52-5d3d1beaa26f
+        group: FACE_GROUP
+        cluster-name: Beijing
+      config:
+        server-addr: 182.92.205.224:8848
+        namespace: 8f66febb-8a3d-45c1-bb52-5d3d1beaa26f
+        group: FACE_GROUP
+        cluster-name: Beijing
+        file-extension: yml
+        shared-dataids: myqx-common.yml
+        refreshable-dataids: myqx-common.yml
